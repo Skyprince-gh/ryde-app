@@ -1,0 +1,7 @@
+{
+  "appId": "com.drivetech.dryve",
+  "appName": "dryv-app",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

@@ -1,0 +1,22 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title color="primary">Main</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="" color="primary"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+</ion-header> -->
+
+<ion-content>
+  <app-menu-bar></app-menu-bar>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed" (click)="requestRide()">
+        <ion-fab-button color="primary"> 
+          <ion-icon name="car"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
+  
+    <div class="map-view" #mapView>
+      
+    </div>
+</ion-content>

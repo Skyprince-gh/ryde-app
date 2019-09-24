@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color="primary">Dryv</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+<ion-grid>
+  <div class="container">
+      <ion-row>
+          <ion-col size-xs="3" size-md="2" offset-md="3" offset-xs="1">
+            <ion-item>
+              <ion-label position="floating">+233</ion-label>
+              <ion-input type="number" disabled></ion-input>
+            </ion-item>
+          </ion-col>
+      
+          <ion-col size-xs="6" size-md="4"  offset-xs="1">
+            <ion-item>
+              <ion-label position="floating">Phone Number</ion-label>
+              <ion-input type="number" minlength="9"></ion-input>
+            </ion-item>
+          </ion-col>
+        </ion-row> 
+        <ion-row class="ion-margin ion-padding ion-justify-content-center ion-align-items-center">
+         <ion-item lines="none">
+            <ion-label> 
+                <span class> 
+                  <ion-icon name="logo-google" class="ion-margin-end "></ion-icon>
+                </span> 
+                <span>Sign up with Google</span>
+            </ion-label>
+         </ion-item>
+        </ion-row>
+  </div>
+
+</ion-grid>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button (click)="onNext()"> 
+          <ion-icon name="arrow-forward"></ion-icon>
+        </ion-fab-button>
+    </ion-fab> 
+</ion-content>
